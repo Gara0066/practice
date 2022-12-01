@@ -10,11 +10,59 @@ html{
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+#logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35px; 
+}
 nav{
     list-style-type: none;
-    display: flex;
+    background-color: #222;
+    max-width: 600px;
+   
 }
 
-ul {
+nav ul {
     background-color: #222;
+    text-align: center;
+    
+    
+    
+}
+nav ul li:first-child {
+    background-color: #c78b07;
+    padding-top: 150px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #c78b07;
+    padding: 20px;
+    display: grid;
+   
+}
+.search-bar {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    background-color: #222;
+}
+input[type='search'] {
+    width: 100%;
+    border: 2px solid #222;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    margin-right: 0 auto;
+}
+
+.searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c78c06;
+    background: #222;
+    color: #c78c06;
+    cursor: pointer;
+    font-size: 20px;
 }
