@@ -10,3 +10,11 @@ html{
 body {
     font-family: 'Open Sans', sans-serif;
 }
+nav{
+    list-style-type: none;
+    display: flex;
+}
+
+ul {
+    background-color: #222;
+}
