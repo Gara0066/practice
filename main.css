@@ -1,9 +1,12 @@
 html{
     box-sizing: border-box;
-  }
-  .container {
+}
+.container {
     margin: 0 auto;
-    background-color: ;
-    width: 1023px;
+    background-color: white;
+    max-width: 600px;
     max-height: max-content;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
 }
