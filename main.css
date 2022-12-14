@@ -160,7 +160,7 @@ img:not(#logo) {
 }
 
 .section-vision {
-    background-image: url(../images/vision.jpg);
+    background-image: url(..practice/images/vision.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -265,4 +265,27 @@ footer {
     background-color: #222;
     color: #c78b07;
     margin-top: 20px;
+}
+
+/* TABLET STYLES: 760px to 1199px */
+@media screen and (min-width: 760px) {
+
+    .container {
+        width: 706px;
+        margin: 0 auto;
+    }
+    /* NOTHING ELSE! */ 
+}
+
+/* DESKTOP STYLES: ABOVE 1200px */
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 1168px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    
+
 }
